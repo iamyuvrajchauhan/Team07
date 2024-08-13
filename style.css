@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+nav{
+    width: 100%;
+    height: 65px;
+    /* background-color: lightcyan; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navpart1{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+#navpart1 img{
+    object-fit: cover;
+}
+
+#navpart2{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+#navpart2 h1{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#navpart3{
+    padding-right: 50px;
+    display: flex;
+    gap: 20px;
+}
+#navpart3 h1{
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid black;
+    padding: 8px 13px;
+    border-radius: 20px;
+}
+#navpart3 h1:nth-last-child(1)
+{
+    color: orangered;
+    border-color: orangered;
+}
+#navpart3 h1:nth-child(1)
+{
+    color: white;
+    background-color: orangered;
+    border: orange;
+}
+#navpart3 h1:nth-last-child(1):hover{
+    color: white;
+    background-color: orangered;
+}
+#navpart3 h1:nth-child(1):hover{
+    background-color: white;
+    color: orangered;
+}
+#imgcontent{
+    /* background-color: lightsalmon; */
+    width: 100%;
+    height: 45%;
+    padding: 10px 15px;
+}
+#imgcontent img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#content2{
+    width: 100%;
+    height: 45%;
+    /* background-color: red; */
+}
+#colordiv{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 95%;
+    height: 100%;
+    background-color: rgb(241, 222, 198, 0.5);
+    border-radius: 30px;
+}
+#content2 h1{
+    font-size: 45px;
+    font-weight: 400;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 120px;
+    gap: 20px;
+}
+#nav2{
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav2 h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+#content3{
+    height: 40%;
+    width: 100%;
+    background-color: bisque;
+    padding-left: 50px;
+}
